@@ -4,7 +4,7 @@ import axios from "axios";
 const Chat = () => {
   const [messages, setMessages] = useState([
     {
-      text: "Welcome to AM Banks. How can I assist you today?",
+      text: "Welcome to AM Store. How can I assist you today?",
       isUser: false,
     },
   ]);
@@ -57,7 +57,7 @@ const Chat = () => {
     <div className="flex flex-col h-screen">
       <div className="bg-blue-500 w-full">
         <nav className="p-4">
-          <h1 className="text-2xl font-semibold text-white">AM Banks Chat</h1>
+          <h1 className="text-2xl font-semibold text-white">AM Store Chat</h1>
         </nav>
       </div>
       <div className="flex-grow flex-1  overflow-auto flex flex-col bg-white">
